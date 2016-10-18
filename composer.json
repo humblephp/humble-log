@@ -4,6 +4,7 @@
     "license": "MIT",
     "require": {
         "php": ">=7.0.0",
+        "psr/log": "^1.0",
         "humble/standards": "~1.0"
     },
     "require-dev": {
@@ -11,7 +12,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Humble\\Csrf\\": "./src"
+            "Humble\\Log\\": "./src"
         }
     }
 }
